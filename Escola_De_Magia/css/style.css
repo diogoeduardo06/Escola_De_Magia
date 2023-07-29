@@ -1,0 +1,74 @@
+body{
+    display: flex;
+    justify-content: center;
+
+    background-color: rgb(39, 39, 39);
+}
+#caixa{
+    display: flex;
+
+    margin-top: 20px;
+    padding: 20px;
+    width: 70%;
+    height: 80vh;
+
+    background-color: black;
+}
+.TextField{
+    width: 90%;
+    height: 20px;
+
+}
+
+button{
+    border: none;
+    font-size: large;
+    
+    height: 50px;
+    width: 250px;
+    margin-right: 20%;
+
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+#button{
+    display: flex;
+    justify-content: end;
+
+    width: 100%;
+    height: 50px;
+    margin-top: 20%;
+
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+
+    width: 80%;
+    height: 95vh;
+
+    background-color: brown;
+}
+.NomesCampos{
+    font-size: 30px;
+
+    color: white;
+}
+.NomesCampos2{
+    font-size: 25px;
+
+    color: white;
+}
+
+#perguntas1{
+    display: flex;
+    flex-direction: column;
+
+    height: 80vh;
+    width: 60%;
+}
+#perguntas2{
+    display: flex;
+    flex-direction: column;
+}
